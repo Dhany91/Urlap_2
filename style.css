@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script|Nosifer&subset=latin,latin-ext);
+
+main {
+    color: blue;
+}
+header {
+    font-family: 'Nosifer', cursive;
+    height: 160px;
+    width: 960px;
+    text-align: center;
+    background-image: url("fejlec_bg.jpg");
+    background-repeat: repeat;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 20px;
+    color: #fff;
+    margin: none;
+    padding: 20px;
+    text-align: center;
+}
+header h2 {
+    font-size: 20px;
+    color: #f1eded;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+nav {
+    height: 35px;
+}
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    font-size: 18px;
+    display: inline;
+    margin: 0 40px 0 40px;
+}
+nav a {
+    color: yellow;
+    text-decoration: none;
+}
+nav a:hover {
+    color: green;
+    text-decoration: none;
+}
+section {
+    width: 940px;
+    min-height: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+form p {
+    font-weight: bold;
+    margin-left: 20px;
+}
+form input[type="text"] {
+    width: 300px;
+}
+form input.felulet {
+    width: 50px;
+}
+footer {
+    height: 80px;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(fejlec_bg.jpg);
+    background-repeat: repeat;
+}
+footer p {
+    font-size: 12px;
+    color: #ccc;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+footer a {
+    color: #fff;
+}

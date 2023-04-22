@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Kovács Fiai Szobafestő és mázoló Kft.</h1>
+            <h2>Minőségi munka</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Főoldal</a>
+                    </li>
+                    <li>
+                        <a href="#">Referenciák</a>
+                    </li>
+                    <li>
+                        <a href="#">Árak</a>
+                    </li>
+                    <li>
+                        <a href="#">Ajánlat kérés</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>Ajánlatkérés</h2>
+                <form action="">
+                    <fieldset>
+                        <legend>Ajánlatkéréshez töltse ki az alábbi űrlapot</legend>
+                        <p>
+                            <label for="name">Név</label><br>
+                            <input type="text" id="name" size="20" maxlength="30">
+                        </p>
+                        <p>
+                            <label for="email">Email cím</label><br>
+                            <input type="email" id="email" size="20">
+                        </p>
+                        <p>
+                            <b>Munka:</b><br>
+                            <input type="radio" id="festes" value="festes" name="valasztas">
+                            <label for="festes">Festés</label><br>
+                            <input type="radio" id="mazolas" value="mazolas" name="valasztas">
+                            <label for="mazolas">Mázolás</label><br>
+                            <input type="radio" id="tapetazas" value="tapetazas" name="valasztas">
+                            <label for="tapetazas">Tapétázás</label><br>
+                            <input type="radio" id="gletteles" value="gletteles" name="valasztas">
+                            <label for="gletteles">Glettelés</label><br>
+                            <input type="radio" id="csiszolas" value="csiszolas" name="valasztas">
+                            <label for="csiszolas">Csiszolás</label><br>
+                            <input type="radio" id="egyeb" value="egyeb" name="valasztas">
+                            <label for="egyeb">Egyéb</label>
+                        </p>
+                        <p>
+                            <label for="felulet">Falfelület mérete:</label><br>
+                            <input type="number" id="felulet" maxlength="10" size="10">
+                        </p>
+                        <p>
+                            <label for="megjegy">Egyéb megjegyzés:</label><br>
+                            <textarea name="megjegy" id="megjegy" cols="30" rows="10"></textarea>
+                        </p>
+
+                        <input type="submit" value="Ajánlat küldése" >
+                    </fieldset>
+                </form>
+        </section>
+        <footer>
+            <p>
+                &copyMinden jog fenntartva
+            </p>
+            <p>
+                Együttműködő partner: <a href="https://www.colorfestekszolnok.hu/">Color festékbolt</a>
+            </p>
+        </footer>
+    </main>
+    
+</body>
+</html>
